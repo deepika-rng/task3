@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page – CodTech</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #1e1e2f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .product-preview {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+
+    .product-preview img {
+      width: 100%;
+      max-width: 400px;
+      animation: rotate360 8s linear infinite;
+    }
+
+    @keyframes rotate360 {
+      0% { transform: rotateY(0deg); }
+      100% { transform: rotateY(360deg); }
+    }
+
+    .product-info {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .product-info h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .price {
+      font-size: 24px;
+      color: #e91e63;
+    }
+
+    .description {
+      margin: 15px 0;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      background-color: #1e88e5;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .reviews {
+      margin-top: 40px;
+    }
+
+    .review {
+      background: #f1f1f1;
+      border-left: 5px solid #1e88e5;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+    }
+
+    .review strong {
+      color: #222;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #1e1e2f;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .product-preview img {
+        animation: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CodTech E-Commerce – Product Showcase</h1>
+  </header>
+
+  <div class="container">
+    <!-- Product Image/360° View -->
+    <div class="product-preview">
+      <img src="watch.jpg" alt="360 View Product" />
+      <p><em>360° View (auto-rotating)</em></p>
+    </div>
+
+    <!-- Product Information -->
+    <div class="product-info">
+      <h2>Innovative Smart Watch</h2>
+      <p class="price">$999.99</p>
+      <p class="description">
+        Experience the next generation of wearable tech with our sleek, powerful smartwatch.
+        Monitor your health, stay connected, and do it all with style.
+      </p>
+      <button class="btn">Add to Cart</button>
+
+      <!-- Customer Reviews -->
+      <div class="reviews">
+        <h3>Customer Reviews</h3>
+
+        <div class="review">
+          <strong>⭐️⭐️⭐️⭐️⭐️ – Manohar</strong>
+          <p>Amazing product! The design is slick and battery lasts all day. Highly recommended!</p>
+        </div>
+
+        <div class="review">
+          <strong>⭐️⭐️⭐️⭐️ – vishnu</strong>
+          <p>Good value for money. The features are just what I needed for daily fitness tracking.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Completion Certificate will be issued on your internship end date – CodTech
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page – CodTech</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #1e1e2f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .product-preview {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+
+    .product-preview img {
+      width: 100%;
+      max-width: 400px;
+      animation: rotate360 8s linear infinite;
+    }
+
+    @keyframes rotate360 {
+      0% { transform: rotateY(0deg); }
+      100% { transform: rotateY(360deg); }
+    }
+
+    .product-info {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .product-info h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .price {
+      font-size: 24px;
+      color: #e91e63;
+    }
+
+    .description {
+      margin: 15px 0;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      background-color: #1e88e5;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .reviews {
+      margin-top: 40px;
+    }
+
+    .review {
+      background: #f1f1f1;
+      border-left: 5px solid #1e88e5;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+    }
+
+    .review strong {
+      color: #222;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #1e1e2f;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .product-preview img {
+        animation: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CodTech E-Commerce – Product Showcase</h1>
+  </header>
+
+  <div class="container">
+    <!-- Product Image/360° View -->
+    <div class="product-preview">
+      <img src="Boat.webp" alt="360 View Product" />
+      <p><em>360° View (auto-rotating)</em></p>
+    </div>
+
+    <!-- Product Information -->
+    <div class="product-info">
+      <h2>AIRDOPES 161</h2>
+      <p class="price">$999.99</p>
+      <p class="description">
+        Boat Buds is a popular brand known for offering a wide range of affordable and high-quality audio products, including earbuds and wireless headphones. With a focus on delivering great sound and durability, Boat Buds are particularly known for their sleek design, good bass, and budget-friendly pricing.
+      </p>
+      <button class="btn">Add to Cart</button>
+
+      <!-- Customer Reviews -->
+      <div class="reviews">
+        <h3>Customer Reviews</h3>
+
+        <div class="review">
+          <strong>⭐️⭐️⭐️⭐️⭐️ – jagadeesh</strong>
+          <p>Amazing product! The design is slick and battery lasts all day. Highly recommended!</p>
+        </div>
+
+        <div class="review">
+          <strong>⭐️⭐️⭐️⭐️ – leela</strong>
+          <p>Good value for money. The features are just what I needed for daily fitness tracking.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Deepika. All rights reserved
+.
+  </footer>
+
+</body>
+</html>
